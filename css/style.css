@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px; 
+    font-family: blue;
+}
+.logo{
+    font-size: 50px;
+    letter-spacing: 5px;
+    collor:red;
+}
+.menu a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color:darkgreen;
+}
+.menu a:last-child{
+    background: red;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    color: white;
+}
+.h-text{
+    max-width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.h-text h1{
+    font-size: 5em;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.h-text p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.h-text a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: 'Bitter',srlf;
+    border-radius: 8px;
+}
+#more{
+    background: transparent;
+    color: blue;
+    box-shadow: 2px 0px 0px grey;
+}
+.box{
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(255,234,167,0.7);
+    z-index: -2;
+}
+#junaid{
+    width: 450px;
+    height: 100%;
+    position: absolute;
+    right: 10%;
+    top: 0;
+    z-index: -1;
+}
